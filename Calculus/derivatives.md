@@ -1,27 +1,52 @@
 # Derivatives
 
-## Definition
+## Introduction
 
-A derivative represents the rate of change of a function.
+A derivative measures the rate of change of a function with respect to a variable.
 
-Example:
+It tells us how rapidly a quantity changes.
 
-f(x) = x²
+---
 
-Derivative:
+## Formula
 
-f'(x) = 2x
+If:
 
-At x = 3
+y = f(x)
 
-f'(3) = 6
+Then:
+
+dy/dx
+
+represents the derivative.
+
+---
+
+## Examples
+
+d/dx(x²) = 2x
+
+d/dx(x³) = 3x²
+
+d/dx(sin x) = cos x
+
+---
 
 ## Applications
 
-- Optimization
-- Machine Learning
-- Physics
+1. Optimization
+2. Physics
+3. Economics
+4. Machine Learning
+
+---
+
+## Machine Learning Connection
+
+Derivatives help determine how model parameters should be adjusted to minimize error.
+
+---
 
 ## Conclusion
 
-Derivatives help measure how quickly something changes.
+Derivatives are fundamental for optimization and learning algorithms.
