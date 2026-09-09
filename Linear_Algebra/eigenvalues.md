@@ -1,21 +1,57 @@
-# Eigenvalues
+# Eigenvalues and Eigenvectors
 
-## Definition
+## Introduction
 
-Eigenvalues describe how much an eigenvector is stretched or compressed during a transformation.
+Eigenvalues and eigenvectors describe how a matrix transforms a vector.
 
-## Intuition
+When a matrix acts on a special vector and only changes its magnitude while keeping its direction unchanged, that vector is called an eigenvector.
 
-If a vector keeps its direction after transformation and only changes its length, that vector is called an eigenvector.
+The scaling factor is called an eigenvalue.
 
-The stretching factor is called the eigenvalue.
+---
+
+## Formula
+
+A × v = λ × v
+
+Where:
+
+A = Matrix
+
+v = Eigenvector
+
+λ = Eigenvalue
+
+---
+
+## Importance
+
+Eigenvalues help understand:
+
+1. Data variance
+2. Dimensionality reduction
+3. Data transformations
+
+---
 
 ## Applications
 
-- Principal Component Analysis (PCA)
-- Data Compression
-- Face Recognition
+1. Principal Component Analysis (PCA)
+2. Face Recognition
+3. Image Compression
+4. Data Visualization
+5. Machine Learning
+
+---
+
+## Machine Learning Connection
+
+PCA uses eigenvalues to determine the most important directions in data.
+
+This reduces dimensionality while preserving useful information.
+
+---
 
 ## Conclusion
 
-Eigenvalues help identify important patterns in data.
+Eigenvalues and eigenvectors are powerful mathematical tools used extensively in data science and machine learning.
